@@ -6,6 +6,9 @@ const path = require('path');
 module.exports = defineConfig({
   transpileDependencies: true,
 
+ publicPath: process.env.NODE_ENV === 'production' 
+ ? '/paintings/' 
+ : '/',
   configureWebpack: {
     plugins: [
       new webpack.DefinePlugin({

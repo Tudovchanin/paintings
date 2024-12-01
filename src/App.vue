@@ -106,8 +106,6 @@ onBeforeMount(async () => {
   initCards(dataCards);
 });
 
-
-
 </script>
 <template>
   <div class="wrapper-page">
@@ -136,7 +134,7 @@ onBeforeMount(async () => {
       <div data-aos="zoom-in" v-if="popUpShow" @click.self="handleClosePopUp" class="wrapper-pop-up">
         <PopUpImg v-bind="cards[cardIdPopUp]" />
         <button @click="handleClosePopUp" class="wrapper-pop-up__close">
-          <img src="/images/close.png" alt="закрыть pop up" />
+          <img :src="basePath + '/images/close.png'" alt="закрыть pop up" />
         </button>
       </div>
     </main>

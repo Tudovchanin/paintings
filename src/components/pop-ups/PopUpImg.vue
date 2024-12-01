@@ -119,8 +119,8 @@ const getImagePath = (nameFolder, imgName, format) => {
     </div>
     <div class="pop-up__info">
       <div class="pop-up__container-btn">
-        <button ref="btnPrev" class="pop-up__btn"><img src="/images/arrow.png" alt="назад"></button>
-        <button ref="btnNext" class="pop-up__btn"><img src="/images/arrow.png" alt="вперед"></button>
+        <button ref="btnPrev" class="pop-up__btn"><img :src="basePath +'/images/arrow.png'" alt="назад"></button>
+        <button ref="btnNext" class="pop-up__btn"><img :src="basePath +'/images/arrow.png'" alt="вперед"></button>
       </div>
       <div class="pop-up__container-step">
         <div ref="stepSlide" class="pop-up__step-slide">1</div>
