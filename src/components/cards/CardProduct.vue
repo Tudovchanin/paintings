@@ -91,13 +91,13 @@ const handleClickImg = (id) => {
           <div v-if="!inCart">Купить</div>
           <div class="card__load" v-else-if="load">
             <span class="card__load-icon">
-              <img src="/images/load-icon.png" alt="иконка загрузки">
+              <img :src="basePath + '/images/load-icon.png'" alt="иконка загрузки">
             </span>
             <span>загрузка</span>
           </div>
           <div class="card__check" v-else>
             <span class="card__check-icon">
-              <img src="/images/check-icon.svg" alt="иконка куплено">
+              <img :src="basePath + '/images/check-icon.svg'" alt="иконка куплено">
             </span>
             <span>В корзине</span>
           </div>
