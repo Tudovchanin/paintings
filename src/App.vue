@@ -6,7 +6,7 @@ import PopUpImg from '@/components/pop-ups/PopUpImg.vue';
 import CardProduct from '@/components/cards/CardProduct.vue';
 import getCards from '@/services/getCards.js'
 
-const basePath = process.env.VUE_APP_BASE_URL;
+const basePath = process.env.VUE_APP_BASE_URL || '/';
 const numberPage = ref(1);
 let url = `${basePath}db/data_${numberPage.value}.json`
 

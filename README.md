@@ -11,12 +11,19 @@
    git clone https://github.com/Tudovchanin/paintings.git
    cd paintings
    ```
-2. Установите зависимости:  
+2. Установите зависимости:
+
+```bash
    npm install
+```
+
 3. Запустите приложение в режиме разработки:
-  npm run serve  
+
+```bash
+  npm run serve
+```
 
 4. Сборка проекта  
-  npm run build
+   npm run build
 
 [Demo]https://tudovchanin.github.io/paintings/

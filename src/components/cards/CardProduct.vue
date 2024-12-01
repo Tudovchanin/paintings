@@ -47,7 +47,8 @@ const props = defineProps({
   }
 });
 
-const basePath = process.env.VUE_APP_BASE_URL;
+const basePath = process.env.VUE_APP_BASE_URL || '/';
+
 const getImagePath = (nameFolder, imgName, format) => {
   const path = `${basePath}images/cards/${nameFolder}/${imgName}.${format}`
 
