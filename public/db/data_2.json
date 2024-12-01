@@ -1,0 +1,44 @@
+{
+  "15": {
+    "id": "15",
+    "title": "Карточка 15",
+    "author": "автор",
+    "oldPrice": "старая цена",
+    "price": "цена",
+    "img": ["test1", "test2", "test3", "test4"],
+    "sold": false,
+    "info":"Описание карточки"
+    
+  },
+  "16": {
+    "id": "16",
+    "title": "Карточка 16",
+    "author": "Автор",
+    "oldPrice": null,
+    "price": "цена",
+    "img": ["test1", "test2", "test3", "test4"],
+    "sold": false,
+    "info":"Описание карточки"
+  },
+  "17": {
+    "id": "17",
+    "title": "Карточка 17",
+    "author": "Автор",
+    "oldPrice": "старая цена",
+    "price": "цена",
+    "img": ["test1", "test2", "test3", "test4"],
+    "sold": true,
+    "info":"Описание карточки"
+  },
+  "18": {
+    "id": "18",
+    "title": "Карточка 18",
+    "author": "Автор",
+    "oldPrice": "старая цена",
+    "price": "цена",
+    "img": ["test1", "test2", "test3", "test4"],
+    "sold": false,
+    "info":"Описание карточки"
+  }
+  
+}

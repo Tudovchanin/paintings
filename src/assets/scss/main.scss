@@ -1,0 +1,15 @@
+@import './helpers';
+@import './variables';
+@import './reset';
+@import './fonts';
+@import './mediaMixins';
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  min-height: 100vh;
+}
+
+
+.no-scroll {
+  overflow: hidden;
+}
