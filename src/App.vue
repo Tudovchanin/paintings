@@ -134,7 +134,7 @@ onBeforeMount(async () => {
       <div data-aos="zoom-in" v-if="popUpShow" @click.self="handleClosePopUp" class="wrapper-pop-up">
         <PopUpImg v-bind="cards[cardIdPopUp]" />
         <button @click="handleClosePopUp" class="wrapper-pop-up__close">
-          <img :src="basePath + '/images/close.png'" alt="закрыть pop up" />
+          <img :src="basePath + 'images/close.png'" alt="закрыть pop up" />
         </button>
       </div>
     </main>
@@ -347,8 +347,8 @@ onBeforeMount(async () => {
 
   &__close {
     position: absolute;
-    top: 2%;
-    right: 5%;
+    top: 0;
+    left:  0;
     width: 60px;
     height: 60px;
     background-color: #ffffff4f;
