@@ -23,9 +23,5 @@
    npm run serve
    ```
 
-4. Сборка проекта  
-   ```bash
-   npm run build  
-   ```
 
 [Demo]https://tudovchanin.github.io/paintings/
