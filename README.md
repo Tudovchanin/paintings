@@ -13,17 +13,19 @@
    ```
 2. Установите зависимости:
 
-```bash
+  ```bash
    npm install
-```
+  ```
 
 3. Запустите приложение в режиме разработки:
 
-```bash
-  npm run serve
-```
+   ```bash
+   npm run serve
+   ```
 
 4. Сборка проекта  
-   npm run build
+   ```bash
+   npm run build  
+   ```
 
 [Demo]https://tudovchanin.github.io/paintings/
